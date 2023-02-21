@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+.carrousel-container {
+    display: flex;
+    flex-direction: line;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+
+.carrousel-container > .carrousel-element {
+    min-width: 200px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(max(300px, 100%/5.5), 1fr));
+    padding: 1%;
+}
+
+.ex_list > .ex_item:nth-child(odd) {
+    background-color: #8b8b8b;
+}
+
+.ex_list > .ex_item :nth-child(even) {
+    background-color: #ffffff;
+}
+

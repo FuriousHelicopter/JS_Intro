@@ -5,6 +5,7 @@
     border: 1px solid red;
 }
 
+
 .carrousel-container {
     display: flex;
     flex-direction: line;
@@ -17,17 +18,31 @@
     min-width: 200px;
 }
 
+
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(max(300px, 100%/5.5), 1fr));
     padding: 1%;
 }
 
-.ex_list > .ex_item:nth-child(odd) {
+#test {
+    background-color: green;
+}
+
+#test:hover {
+    background-color: purple;
+}
+
+
+
+
+/* .ex_list > .ex_item:nth-child(odd) {
     background-color: #8b8b8b;
 }
 
 .ex_list > .ex_item :nth-child(even) {
     background-color: #ffffff;
-}
+} */
+
 
